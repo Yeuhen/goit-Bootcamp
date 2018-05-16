@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper {
+    margin: auto;
+    width: 970px;
+    background-color: blue;
+    padding: 20px;
+}
