@@ -27,8 +27,6 @@ ul li{
 }
 
 li a {
-    /*font-family: 'Playfair Display', serif;*/
-
     text-transform: uppercase;
     text-decoration: none;
     font-size: 11px;
@@ -39,7 +37,6 @@ main {
     font-size: 0;
 }
 .parrent > article {
-
     vertical-align: top;
 }
 .news{
@@ -49,7 +46,7 @@ main {
     text-align: left;
 }
 
-p {
+article.p {
     font-size: 11px;
 }
 
@@ -61,8 +58,7 @@ article {
     margin: 100px 0 35px;
 }
 
-img {
-    margin-bottom: 30px;
+img { margin-bottom: 30px;
 }
 
 figcaption {
@@ -75,7 +71,13 @@ h2 {
     margin-bottom: 40px;
 }
 
-button {
-    border: 1px, solid, black;
+button.hover {
+    display: inline-block;
+    border-color: #000000;
+    border: 1px, solid;
     margin: 57px auto;
+    padding:21px 33px;
 }
+
+button:hover {background: #00fffc;}
+button:active {background: #57bdb5;}
