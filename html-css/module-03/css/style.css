@@ -1,85 +1,95 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .wrapper {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    box-sizing: border-box;
-    width: 1200px;
-    padding: 77px 150px 70px;
+    width: 900px;
+    padding: 77px 0px;
     margin: auto;
     background-color: #ffffff;
-    text-align: center;
 }
 
-ul {
-    text-align: center;
+.header {
+    list-style: none;
+    width: 580px;
+    margin: 0 auto 103px;
 }
 
-ul li{
-    display: inline-block;
-    text-align: center;
-    padding: 0 40px;
-    margin-bottom: 3px;
-}
-
-li a {
+.navigation {
     text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.navigation:last-child {
+    margin-right: 0;
+}
+
+.link {
     text-decoration: none;
-    font-size: 11px;
     color: #000000;
 }
 
-main {
+.link:hover {
+    color: #0000ff;
+}
+
+.main {
     font-size: 0;
 }
-.parrent > article {
-    vertical-align: top;
-}
-.news{
-    font-size: 22px;
+
+.article {
     width: 420px;
+    margin: 0 60px 135px 0;
     display: inline-block;
-    text-align: left;
 }
 
-article.p {
-    font-size: 11px;
+.article:nth-last-child(-n+2) {
+    margin-bottom: 0;
 }
 
-.align-columns {
-    margin-right: 60px;
+.article:nth-child(2n+2) {
+    margin-right: 0;
 }
 
-article {
-    margin: 100px 0 35px;
-}
-
-img { margin-bottom: 30px;
-}
-
-figcaption {
+.fig {
     margin-bottom: 30px;
-    text-transform: uppercase;
-    font-size: 11px;
+}
+
+.img {
+    margin-bottom: 30px;
+}
+
+.figcaption {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
-h2 {
+.article-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
     margin-bottom: 40px;
-    font-size: 22px;
 }
 
-button.hover {
-    display: inline-block;
-    border-color: #000000;
-    border: 1px, solid;
+.text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.butn {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     margin: 57px auto;
-    padding:21px 33px;
+    padding:20px 35px;
 }
 
 button:hover {background: #00fffc;}
