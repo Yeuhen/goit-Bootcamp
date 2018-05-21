@@ -5,16 +5,23 @@
 @import "photo.css";
 @import "email.css";
 @import "copyright.css";
+@font-face {
+    font-family: "Socialico", sans-serif;
+    src: url("../fonts/socialico.ttf");
+}
 
-.wrapper {
-    width: 940px;
-    display: block;
-    margin: auto;
+.wrapper-light {
+    background-color: #ffffff;
+}
+
+.wrapper-dark {
+    background-color: #23232e;
 }
 
 .main {
+    display: block;
+    margin: auto;
     font-family:"Segoe UI",sans-serif;
-    padding: 125px 0 265px;
 }
 .white-title {
     text-transform: uppercase;

@@ -1,8 +1,10 @@
 .what {
-    background-color: #ffffff;
+    width: 940px;
+    display: block;
+    margin: auto;
     color: #464b4f;
     font-size: 0;
-    padding-bottom: 125px;
+    padding: 125px 0;
 }
 
 .what-text {
@@ -39,6 +41,7 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 35px;
 }
 
 .list-text {

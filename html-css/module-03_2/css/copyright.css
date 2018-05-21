@@ -1,0 +1,29 @@
+.footer {
+    width: 940px;
+    padding: 100px 0;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #dbdbdb
+}
+
+.footer-list {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.footer-list:last-child {
+    margin-right: 0;
+}
+
+.social {
+    font-family: Socialico,sans-serif;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.copyright {
+    margin-bottom: 35px;
+}
