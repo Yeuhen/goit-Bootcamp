@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "header.css";
+@import "what.css";
+@import "work.css";
+@import "photo.css";
+@import "email.css";
+@import "copyright.css";
+
+.wrapper {
+    width: 940px;
+    display: block;
+    margin: auto;
+}
+
+.main {
+    font-family:"Segoe UI",sans-serif;
+    padding: 125px 0 265px;
+}
+.white-title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dark-title {
+    text-transform: uppercase;
+    color: #464b4f;
+    font-size: 80px;
+    text-align: center;
+}

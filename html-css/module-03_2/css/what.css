@@ -1,0 +1,46 @@
+.what {
+    background-color: #ffffff;
+    color: #464b4f;
+    font-size: 0;
+    padding-bottom: 125px;
+}
+
+.what-text {
+    display: block;
+    margin: auto;
+    width: 850px;
+    font-size: 30px;
+    text-align: center;
+}
+.what-text:first-child {
+    margin-bottom: 55px;
+}
+
+.what-text:nth-child(2) {
+    margin-bottom: 85px;
+}
+
+.what-title {
+    margin-bottom: 60px;
+}
+
+.what-list {
+    display: inline-block;
+    margin-right: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.what-list:last-child {
+    margin-right: 0;
+}
+
+.list-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list-text {
+    font-size: 18px;
+}
