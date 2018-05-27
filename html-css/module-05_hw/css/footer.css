@@ -1,0 +1,23 @@
+.wrapper {
+    background-color: #323232;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.footer-continer {
+    padding: 38px 0;
+    margin: auto;
+}
+
+.footer-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.designed-by {
+    color: #46bfa9;
+    text-decoration: none;
+}

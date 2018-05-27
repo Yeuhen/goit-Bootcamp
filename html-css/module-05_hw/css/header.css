@@ -1,0 +1,64 @@
+.wrapper-header {
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+.header-pad {
+    padding: 38px 0 32px;
+}
+
+.logo {
+    float: left;
+    min-height: 32px;
+}
+
+.logo-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #555252;
+    font-size: 30px;
+
+}
+
+.head {
+    line-height: 1;
+}
+.logo::first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+.menu {
+    float: right;
+    line-height: 2;
+}
+
+.section {
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    min-height:32px;
+    vertical-align: middle;
+}
+
+.section:last-child {
+    margin-right: 0;
+}
+
+.section:hover > .menu-link {
+    color: #1abc9c;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}

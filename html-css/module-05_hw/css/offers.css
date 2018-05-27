@@ -1,0 +1,148 @@
+.wrapper-offers {
+    background-color: #e9f0fd;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.offers-pad {
+    padding: 100px 0 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.offers-title {
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.offers-title:after {
+    display: block;
+    content: '';
+    width: 164px;
+    height: 40px;
+    border-bottom:7px solid #1abc9c;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.offer-block {
+    width: 250px;
+    height: 320px;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.offer-block:last-child {
+    margin-right: 0;
+}
+
+.offer-img {
+    display: block;
+}
+.offer-info {
+    font-size: 0;
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.offer-name {
+    padding: 15px 0;
+    text-align: center;
+    width: 75%;
+    display: inline-block;
+    font-size: 18px;
+    background-color: #000000;
+}
+
+.offer-price {
+    padding: 15px 0;
+    text-align: center;
+    width: 25%;
+    font-size: 18px;
+    background-color: #8c8c8c;
+    display: inline-block;
+}
+
+.offer-overlay {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0,0,0,0.5);
+    outline: 10px solid rgba(255,255,255,0.5);
+    width: 230px;
+    height: 260px;
+}
+
+.off-icons {
+    width: 166px;
+    height: 107px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+.box_cart {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 166px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #323232;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.box_cart:before {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-span {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.offer-block:hover > .offer-overlay {
+    display: block;
+}
+
+.offer-block:hover .offer-name {
+    background-color: #1abc9c;
+}
+
+.offer-block:hover .offer-price {
+    background-color: #7fd9c7;
+}
+
+.box:hover,.box_cart:hover {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
