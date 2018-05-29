@@ -1,0 +1,96 @@
+.team-text {
+    width: 950px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #b6b6b6;
+}
+
+.team-group {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.member {
+    position: relative;
+    transition: 500ms;
+}
+
+.blue-layer {
+    width: 100%;
+    height: 470px;
+    background-color: #95e1d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.photo {
+    transition: 500ms;
+}
+
+.overlay {
+    width: 100%;
+    height: 470px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.0;
+    transition: 500ms;
+}
+
+.icons {
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ss-icon {
+    color: #f38181;
+    background-color: #fce38a;
+}
+
+.ss-icon:hover {
+    background-color: #95e1d3;
+}
+
+.member-about {
+    width: 100%;
+    min-height: 155px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    flex-grow: 0.16;
+    font-weight: 400;
+}
+
+.role {
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    text-transform: none;
+}
+
+.member:hover .photo, .member:hover .overlay {
+    transform: translate(-10px,-10px);
+}
+
+.member:hover .overlay {
+    opacity:0.8;
+}

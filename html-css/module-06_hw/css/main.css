@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "header.css";
+@import "we_work_with.css";
+@import "who we are.css";
+@import "footer.css";
+
+/*font-family: 'Kaushan Script', cursive;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+.container {
+    width: 1200px;
+    margin: auto;
+}

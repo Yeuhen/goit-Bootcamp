@@ -1,0 +1,58 @@
+footer .wrapper {
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer .container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.contacts {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    text-transform: none;
+}
+
+.author {
+    color: #f38181;
+    text-decoration: none;
+}
+
+.mail {
+    display: inline-block;
+    width: 500px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type='email'] {
+    /*color: #d9d9d9;*/
+    width: 230px;
+    max-height: 100%;
+    padding-left: 10px;
+    border:none;
+    border: 1px solid #e5e5e5;
+}
+
+input[type='submit'] {
+    width: 150px;
+    max-height: 100%;
+    text-transform: uppercase;
+    background-color: #95e1d3;
+    color: #ffffff;
+    border: none;
+    border: 1px solid #95e1d3;
+}
+
+::placeholder {
+    color: #d9d9d9;
+    text-transform: capitalize;
+}

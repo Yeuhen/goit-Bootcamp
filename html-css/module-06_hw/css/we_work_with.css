@@ -1,0 +1,83 @@
+main .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.title {
+    width: 320px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:700;
+    text-transform: uppercase;
+    position: relative;
+    min-height: 170px;
+    align-content: flex-start;
+}
+
+.pre-title {
+    font-family: 'Kaushan Script', cursive, sans-serif;
+    font-size: 24px;
+    line-height: 2;
+    text-transform: none;
+}
+
+.title:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-color: #f38181;
+    transform: translateX(-50%);
+}
+
+.group-wrap {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    display: block;
+    width: 330px;
+    min-height: 170px;
+}
+
+.picto {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+}
+
+.card-about {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    min-height: 170px;
+
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    flex-grow: 0.17;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #b6b6b6;
+}
