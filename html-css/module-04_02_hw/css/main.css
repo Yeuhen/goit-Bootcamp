@@ -14,8 +14,6 @@ body {
     margin: auto;
 }
 
-
-
 .logo {
     text-decoration: none;
     color: #000000;
@@ -34,6 +32,8 @@ body {
     list-style: none;
     font-family: "Open Sans",sans-serif;
     margin-right: 30px;
+    font-weight:700;
+    font-size: 14px;
 }
 
 .navig-menu:first-child {
@@ -44,8 +44,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
-    font-family: "Open Sans",sans-serif;
-    font-weight: 700;
 }
 
 .navig-link:hover {
@@ -63,6 +61,7 @@ body {
     text-align: center;
     font-size: 48px;
     margin-bottom: 90px;
+    color: #515151;
 }
 
 .title:after {
@@ -73,6 +72,7 @@ body {
     width: 165px;
     border-bottom: 7px solid #1abc9c;
 }
+
 .prod-gallery {
     font-size: 0;
 }
@@ -105,6 +105,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
 }
+
 .prod-name {
     float: left;
     width: 70%;
@@ -121,9 +122,6 @@ body {
     padding: 14px 12px 12px;
     text-align: center;
 }
-
-/*.prod-gallery:hover > .section {*/
-    /*background-color: #1abc9c;}*/
 
 .section:hover .prod-name {
     background-color: #1abc9c;

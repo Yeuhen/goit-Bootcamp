@@ -16,10 +16,10 @@
 
 .gallery-item {
     margin-right: 20px;
-    transition: 2s;
+    transition: 1s;
 }
 .gallery-item:hover {
-    transform: scale(1.1, 1.1) rotate(15deg);
+    transform: scale(1.1, 1.15) rotate(0deg);
 }
 
 .gallery-item:last-child {

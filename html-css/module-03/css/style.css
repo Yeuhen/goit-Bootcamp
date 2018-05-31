@@ -14,10 +14,10 @@
     background-color: #ffffff;
 }
 
-.header {
+.menu {
     list-style: none;
-    width: 580px;
-    margin: 0 auto 103px;
+    margin-bottom: 103px;
+    text-align: center;
 }
 
 .navigation {
@@ -88,7 +88,7 @@
     display: block;
     background-color: #ffffff;
     border: 1px solid #000000;
-    margin: 57px auto;
+    margin: 57px auto 0;
     padding:20px 35px;
 }
 

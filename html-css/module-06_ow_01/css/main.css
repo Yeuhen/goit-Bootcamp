@@ -1,0 +1,50 @@
+@import "reset.css";
+
+.container {
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+    /*ширина по контенту, висота по максимальному всім*/
+    /*flex direction*/
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap; переніс на другу строку
+    justify-content працює виключно по основній осі, не залежно де вона*/
+    /*justify-content: flex-start; флекси прижаті до лівого краю*/
+    /*justify-content: flex-end; флекси прижаті до правого краю*/
+    /*justify-content:center; усі блоки стають разом по центру*/
+    /*justify-content: space-between; перший блок до луваого краю, останній до правого і залшок пустого місця ділиться на рівні чатини між блоками*/
+    /*justify-content: space-around; Як і в бітвін, але між краями і крайніми блоками ставиться відстань у 0.5 від відстані між усіма іншимиблоками.*/
+    /*justify-content: space-evenly; усі відступи однакові*/
+    /*align-items: ; для другорядної осі; усі блоки в ряд і без переносів (без wrap)*/
+    /*align-items: stretch; за замовчуванням;*/
+
+
+    /*align-content: ; коли є wrap;*/
+    /*align-content: stretch ; за мовчуванням*/
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-between ;*/
+    /*align-content: space-around;*/
+    /*align-content: space-evenly;*/
+
+}
+
+.order {
+    /*для елементів;*/
+    /*за замовчуванням order 0 у усіх елементів, >0 переміщається в кінець <0 переміщаться на перед;*/
+    /*align-self:; по допоміжній осі. start,end,center;stretch*/
+
+
+    /*flex-basis: 40%; analog of "width";*/
+    /*flex-grow: 1; відповідає за жадність елементів; числова пропорція дерібана */
+    /*flex-shrink: ; пропорції у кого забирати місце;*/
+    /*width рахується після всіх вищих;*/
+    justify-content:space-around;
+    align-items: flex-end;
+
+}
+

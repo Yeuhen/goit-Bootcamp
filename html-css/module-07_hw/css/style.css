@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "container.css";
+@import "header.css";
+@import "footer.css";
+@import "services.css";
+@import "contact.css";
+
+@font-face {
+    src: url(../fonts/Wisdom-Script.woff)format("woff");
+    font-family: 'Wisdom', sans-serif;
+    font-weight: 400;
+}

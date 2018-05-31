@@ -1,0 +1,32 @@
+.wrapper-header {
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 3.125rem 0 3.125rem;
+    font-family: 'Wisdom', sans-serif;
+    font-size: 1.625rem;
+    color: #fed136;
+    display: inline-block;
+}
+
+.nav {
+    flex-basis: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}

@@ -1,0 +1,69 @@
+.wrapper-work {
+    background-color: #333333;
+    padding: 4rem 0 3rem;
+}
+
+.work-item {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.title-white {
+    text-align: left;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.work-item .text {
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: left;
+}
+
+.card-pic {
+    width: 100%;
+    display: block;
+}
+
+.card-info {
+    background-color: #fff;
+    padding: 1rem;
+    line-height: 2;
+}
+
+.card-title {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-sub-title {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+    .work {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .work-item {
+        flex-basis: 23.3%;
+    }
+
+    .cards {
+        display: flex;
+        flex-basis: 75%;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex-basis: 32%;
+    }
+
+    .work-item {
+        margin-bottom: 0;
+    }
+
+}
