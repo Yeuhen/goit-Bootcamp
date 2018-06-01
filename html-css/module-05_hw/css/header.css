@@ -1,7 +1,3 @@
-.wrapper-header {
-    background-color: #ffffff;
-}
-
 .container {
     width: 1110px;
     margin: auto;
@@ -22,6 +18,7 @@
     text-transform: uppercase;
     color: #555252;
     font-size: 30px;
+    text-decoration: none;
 
 }
 
