@@ -1,0 +1,38 @@
+/*явні і неявні рядочки*/
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-template-rows: 100px 100px;
+    grid-auto-rows: 100px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box {
+    font-size: 2rem;
+    color: #ffeead;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:nth-child(1n) {
+    background-color: #96ceb4;
+}
+.box:nth-child(3n) {
+    background-color: #88d8b0;
+}
+.box:nth-child(2n) {
+    background-color: #ff6f69;
+}
+.box:nth-child(4n) {
+    background-color: #ffcc5c;
+}

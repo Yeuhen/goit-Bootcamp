@@ -1,0 +1,48 @@
+.service {
+    padding: 6.125rem 0 7.5rem;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.sub-title {
+    font-family: 'Droid Serif Italic',sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #777777;
+    margin-bottom: 5rem;
+}
+
+.service_plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_item {
+    width: 30%;
+}
+
+.pic {
+    margin-bottom: 1.75rem;
+}
+
+.pic-title {
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-transform: capitalize;
+}
+
+.pic-text {
+    font-family: 'Roboto Slab Regular',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #777777
+}

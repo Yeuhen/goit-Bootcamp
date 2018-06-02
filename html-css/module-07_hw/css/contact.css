@@ -1,0 +1,85 @@
+.wrapper-contact {
+    background-image: url(../img/bg_02.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contact {
+    text-align: center;
+    padding: 6.9375rem 0 7.1875rem;
+}
+
+.title--white {
+    color: #ffffff;
+}
+
+.form {
+    width: 58.75rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.contact-block__auth {
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+
+}
+
+
+.contact_input-area {
+    padding: 1.375rem 0 1.375rem 0.75rem;
+    border-radius: 0.1875rem;
+    margin-bottom: 1.75rem;
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact_input-area:last-child {
+    margin-bottom: 0;
+}
+
+input:valid, textarea:valid{
+    outline: 0.125rem solid #008000;
+}
+
+input:invalid, textarea:invalid{
+    outline: 0.125rem solid #ff0000;
+}
+
+[type='placeholder'] {
+    color: #bbbbbb;
+}
+
+textarea[name='message'] {
+    width: 48.5%;
+    border-radius: 0.1875rem;
+    margin-bottom: 1.75rem;
+    padding: 1.25rem;
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-msg {
+    width: 25%;
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 1.5rem 3rem 1.6875rem;
+    background-color: #fed136;
+    border: 0.0625rem solid #fed136;
+    border-radius: 0.1875rem;
+}

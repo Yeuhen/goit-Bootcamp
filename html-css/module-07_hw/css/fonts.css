@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Wisdom Script AI';
+    src: url(../fonts/Wisdom-Script/WisdomScriptAI/WisdomScriptAI.woff)format("woff"),url(../fonts/Wisdom-Script/WisdomScriptAI/WisdomScriptAI.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold/Montserrat-Bold.woff)format("woff"),url(../fonts/Montserrat-Bold/Montserrat-Bold.woff2)format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular/Montserrat-Regular.woff)format("woff"),url(../fonts/Montserrat-Regular/Montserrat-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular/Montserrat-Regular.woff)format("woff"),url(../fonts/Montserrat-Regular/Montserrat-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Serif Italic';
+    src: url(../fonts/Droid Serif Italic V2/Droid Serif Italic V2.woff)format("woff"),url(../fonts/Droid Serif Italic V2/Droid Serif Italic V2.woff2)format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url(../fonts/Roboto Slab Regular/Roboto Slab Regular.woff)format("woff"),url(../fonts/Roboto Slab Regular/Roboto Slab Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
