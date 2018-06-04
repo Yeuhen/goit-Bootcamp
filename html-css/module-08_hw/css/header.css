@@ -7,12 +7,12 @@
 }
 
 .section-header {
-    padding: 1rem 0;
+    padding: 1.25rem 0 2.25rem;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-between;
-    padding-bottom: 1.125rem;
+
 }
 
 .logo{
@@ -54,19 +54,23 @@
 }
 
 .title {
+    width: 90%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.875rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom:1.375rem;
+    margin:0 auto 1.375rem;
 }
+/*title_______________*/
+
+
+
 
 .sub-title {
     font-family: 'Roboto',sans-serif;
     font-size: 1.125rem;
-    margin: auto;
-    width: 70%;
-    margin-bottom:1.125rem;
+    margin: 0 auto 1.125rem;
+    width: 80%;
 }
 
 .btn-forward {
@@ -75,7 +79,7 @@
     font-weight: 700;
     color: #ffffff;
     background-color: #ff4e50;
-    padding: 1rem 3.0625rem;
+    padding: 1rem 3rem;
     border: 0.0625rem solid #ff4e50;
     border-radius: 10%/50%;
 }
@@ -88,12 +92,11 @@
 
     .section-header {
         width: 86%;
-        padding: 1rem 0;
+        padding: 2.375rem 1rem 9.625rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: auto;
-        padding-bottom: 9.375rem;
     }
 
     .buttons {
@@ -101,7 +104,7 @@
     }
 
     .section-landing {
-        width: 41%;
+        width: 50%;
         margin: auto;
     }
 
@@ -114,11 +117,11 @@
 @media(min-width: 940px) {
     .section-header {
         width: 100%;
-        padding: 2.375rem 1rem 9.625rem;
-        margin: auto;
+        /*padding: 2.375rem 1rem 9.625rem;*/
+        /*margin: auto;*/
     }
 
     .section-landing {
-        width: 35%;
+        width: 40%;
     }
 }

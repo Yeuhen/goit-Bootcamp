@@ -1,0 +1,17 @@
+@import "reset.css";
+
+
+.box {
+    width: 480px;
+    height: 320px;
+    background: url(https://placeimg.com/480/320/tech?t=1528115631558) no-repeat;
+}
+
+
+/*Якщо Пиксель ретио 2 или резолюшн 192р, то юзать інший бекграунд*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .box {
+        background: url(https://placeimg.com/960/640/animals)no-repeat;
+    }
+}
+

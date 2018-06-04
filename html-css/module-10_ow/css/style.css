@@ -1,1 +1,68 @@
 @import "reset.css";
+
+body {
+    padding: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.list__item {
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    display: inline-block;
+    transition: 1s;
+}
+
+/*.flops {*/
+    /*background: url('../img/css_sprites.png') -10px -62px;*/
+/*}*/
+
+/*.rod {*/
+    /*background: url('../img/css_sprites.png') -10px -10px;*/
+/*}*/
+
+/*.flops:hover{*/
+    /*background: url('../img/css_sprites.png') -62px -62px;*/
+/*}*/
+
+/*.rod:hover {*/
+    /*background: url('../img/css_sprites.png') -62px -10px;*/
+/*}*/
+
+/*.insta {*/
+    /*background: url('../img/css_sprites_2.png') -166px -10px;*/
+/*}*/
+
+/*.insta:hover {*/
+    /*background: url('../img/css_sprites_2.png') -114px -10px;*/
+/*}*/
+
+/*.fb {*/
+    /*background: url('../img/css_sprites_2.png') -10px -10px;*/
+/*}*/
+
+/*.fb:hover {*/
+    /*background: url('../img/css_sprites_2.png') -62px -10px;*/
+/*}*/
+
+/*.twit {*/
+    /*background: url('../img/css_sprites_2.png') -218px -10px;*/
+/*}*/
+
+/*.twit:hover {*/
+    /*background: url('../img/css_sprites_2.png') -270px -10px;*/
+/*}*/
+
+.icon {
+    width: 15rem;
+    height: 8rem;
+    cursor: pointer;
+    fill: #1EA896;
+}
+
+.icon:hover {
+    fill: #FF715B;
+}
