@@ -1,0 +1,124 @@
+.wrapper-header {
+    background-image: url(../img/bg_01_bl.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-header {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 1.125rem;
+}
+
+.logo{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.login {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: rgba(255,255,255,0);
+    padding: 0.8125rem 1.125rem 0.8125rem;
+    border: 0.125rem solid rgba(255,255,255,0);
+    border-radius: 25%/50%;
+}
+
+.login:hover {
+
+    border:0.125rem solid #ffffff;
+}
+
+.buttons {
+    padding-bottom: 8.25rem;
+}
+
+.section-landing {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 8.625rem;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom:1.375rem;
+}
+
+.sub-title {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.125rem;
+    margin: auto;
+    width: 70%;
+    margin-bottom:1.125rem;
+}
+
+.btn-forward {
+    font-family: 'Montserrat',sans-serif;
+    font-size:0.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ff4e50;
+    padding: 1rem 3.0625rem;
+    border: 0.0625rem solid #ff4e50;
+    border-radius: 10%/50%;
+}
+
+.btn-forward:hover {
+    transform: scale(1.1,1.1);
+}
+
+@media(min-width: 768px) {
+
+    .section-header {
+        width: 86%;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 9.375rem;
+    }
+
+    .buttons {
+        padding-bottom: 0;
+    }
+
+    .section-landing {
+        width: 41%;
+        margin: auto;
+    }
+
+    .sub-title{
+        width: 100%;
+        margin-bottom: 2.75rem;
+    }
+}
+
+@media(min-width: 940px) {
+    .section-header {
+        width: 100%;
+        padding: 2.375rem 1rem 9.625rem;
+        margin: auto;
+    }
+
+    .section-landing {
+        width: 34%;
+    }
+}
