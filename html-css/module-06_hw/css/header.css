@@ -10,21 +10,26 @@ header .container {
     flex-grow: 0.6;
 }
 
-.menu {
+.nav {
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+}
+
+.nav_link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #95e1d3;
     position: relative;
-    /*transition: 500ms;*/
 }
 
-header .menu:hover {
+header .nav_link:hover {
     color: #f38181;
 }
 
-.menu:hover:after {
+.nav_link:hover:after {
     content: '';
     background-color: #f38181;
     display: block;
