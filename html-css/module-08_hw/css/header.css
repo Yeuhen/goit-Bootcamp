@@ -54,7 +54,7 @@
 }
 
 .title {
-    width: 90%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.875rem;
     font-weight: 700;
@@ -62,9 +62,6 @@
     margin:0 auto 1.375rem;
 }
 /*title_______________*/
-
-
-
 
 .sub-title {
     font-family: 'Roboto',sans-serif;
