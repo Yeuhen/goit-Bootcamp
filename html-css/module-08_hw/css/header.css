@@ -67,18 +67,26 @@
     font-family: 'Roboto',sans-serif;
     font-size: 1.125rem;
     margin: 0 auto 1.125rem;
-    width: 80%;
+    width: 75%;
 }
 
 .btn-forward {
     font-family: 'Montserrat',sans-serif;
     font-size:0.875rem;
     font-weight: 700;
-    color: #ffffff;
-    background-color: #ff4e50;
     padding: 1rem 3rem;
     border: 0.0625rem solid #ff4e50;
     border-radius: 10%/50%;
+}
+
+.btn_red-white {
+    background-color: #ff4e50;
+    color: #ffffff;
+}
+
+.btn_white-red {
+    background-color: #ffffff;
+    color: #ff4e50;
 }
 
 .btn-forward:hover {
@@ -119,6 +127,6 @@
     }
 
     .section-landing {
-        width: 40%;
+        width: 36%;
     }
 }
