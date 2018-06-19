@@ -1,24 +1,42 @@
 let sharm = 15;
 let hurgada = 25;
-let taba = 15;
+let taba = 6;
+let goodbye = 'Нам дуже прикро, приходьте ще!';
+let apologize = 'Вибачте, але такої кількості вільних місць немає в жодній групі';
+let error = 'Помилкове значення!';
 
+let reservePlaces = prompt('Вкажіть необхідну кількість місць для резерву');
 
-let reservePlaces = null;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if ( !isNaN(reservePlaces) && Number.isInteger(+reservePlaces) && +reservePlaces > 0 ) {
+    switch (true) {
+        case (reservePlaces <= taba):
+            if (window.confirm('Наявна кількість місць є у групі "taba", чи бажаєте приєднатися доцієї групи?')) {
+                alert('Приємної подорожі з групою "taba"!');
+            } else {
+                alert(goodbye);
+            }
+            break;
+        case (reservePlaces <= sharm):
+            if (window.confirm('Наявна кількість місць є у групі "sharm", чи бажаєте приєднатися доцієї групи?')) {
+                alert('Приємної подорожі з групою "sharm"!');
+            } else {
+                alert(goodbye);
+            }
+            break;
+        case(reservePlaces <= hurgada):
+            if (window.confirm('Наявна кількість місць є у групі "hurgada", чи бажаєте приєднатися доцієї групи?')) {
+                alert('Приємної подорожі з групою "hurgada"!');
+            } else {
+                alert(goodbye);
+            }
+            break;
+        default:
+            alert(apologize);
+            break;
+    }
+} else{
+    alert(error);
+}
 
 
 
