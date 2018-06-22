@@ -1,23 +1,34 @@
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 
-let checkLoginValidity = (login) => login.length >=4 && login.length <=16;
-// console.log(checkLoginValidity(login));
-
-let checkIfLoginExists = (logins, login) => {
-    for(let element of logins) {
-        return element === login;
-        break;
-    }
-    return 0;
-}
-// console.log(checkIfLoginExists(logins, login));
-
-let addLogin = (logins, login) =>  logins.push(login);
-
-
 let login = prompt('Enter login for registration:');
 
-!checkLoginValidity(login) ? alert('Ошибка! Логин должен быть от 4 до 16 символов'): checkIfLoginExists(logins, login) ? (alert('Такой логин уже используется!')) : (addLogin(logins, login), alert('Логин успешно добавлен!'));
+let checkLoginValidity = (login) => login.length >=4 && login.length <=16;
+
+let checkIfLoginExists = (logins, login) => {
+    return logins.includes(login)
+};
+
+function addLogin (logins, login) {
+    switch (false) {
+        case checkLoginValidity(login):
+            return 'Ошибка! Логин должен быть от 4 до 16 символов';
+            break;
+        case !checkIfLoginExists(logins, login):
+            return 'Такой логин уже используется!';
+            break;
+        default:
+            logins.push(login);
+            return 'Логин успешно добавлен!';
+            break;
+    }
+}
+
+alert(addLogin (logins, login));
+
+
+
+// !checkLoginValidity(login) ? : checkIfLoginExists(logins, login)
+//     ? ) : (addLogin(logins, login), );
 
 console.log(logins);
 
