@@ -4,9 +4,7 @@ let login = prompt('Enter login for registration:');
 
 let checkLoginValidity = (login) => login.length >=4 && login.length <=16;
 
-let checkIfLoginExists = (logins, login) => {
-    return logins.includes(login)
-};
+let checkIfLoginExists = (logins, login) => logins.includes(login);
 
 function addLogin (logins, login) {
     switch (false) {
