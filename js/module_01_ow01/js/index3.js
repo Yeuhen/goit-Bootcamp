@@ -254,9 +254,13 @@ switch(month) {
 
 // let result = color === 'white' || color === 'red' || color === '' ? : ;
 
+/*
 let num = prompt('kjjbfvkj');
 let result = num === '5' ? 'Evrika' : num == '5' ? 'Loser' : 'Fail';
 console.log(result);
+*/
 
 
 // cancel = null
+
+'qwerty'.indexOf('b') ;

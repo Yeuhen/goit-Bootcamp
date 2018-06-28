@@ -10,9 +10,7 @@ function currencyVariables() {
     let usdToEur = 1/eurToUsd;
     let uahToUsd = 1/usdToUah;
     let uahToEur = 1/eurToUah;
-    console.log(fromConvert);
-    console.log(toConvert);
-    console.log(parseInt(summConvert));
+
     function currencyExchange(fromConvert,toConvert,summConvert) {
         switch (fromConvert + toConvert) {
             case 'USDUAH':
