@@ -208,7 +208,10 @@ console.log(getAllSkills(users));
 // /**
 //  * Массив имен (поле name) людей, отсортированных в зависимости от количества их друзей (поле friends)
 
-const getUserNamesSortedByFriendsCount = arr => arr.map(elem => [elem['name'], elem['friends'].length]).sort((elem1, elem2) => elem1[1] > elem2[1]).map(elem => elem[0]);
+// const getUserNamesSortedByFriendsCount = arr => arr.map(elem => [elem['name'], elem['friends'].length]).sort((elem1, elem2) => elem1[1] > elem2[1]).map(elem => elem[0]);
+
+
+const getUserNamesSortedByFriendsCount = arr => arr.sort((elem1, elem2) => elem1['friends'].length > elem2['friends'].length).map(elem => elem['name']);
 
 console.log(getUserNamesSortedByFriendsCount(users));
 // // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
