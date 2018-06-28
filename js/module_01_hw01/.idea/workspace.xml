@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -86,24 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index5_main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index5_main.js">
+      <file leaf-file-name="index5.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="210" column="169" lean-forward="true" selection-start-line="210" selection-start-column="169" selection-end-line="210" selection-end-column="169" />
+            <state relative-caret-position="761">
+              <caret line="213" column="123" lean-forward="false" selection-start-line="213" selection-start-column="123" selection-end-line="213" selection-end-column="123" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index5_add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index5_add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529418287117</updated>
       <workItem from="1529418288378" duration="40148000" />
-      <workItem from="1529909458997" duration="24551000" />
+      <workItem from="1529909458997" duration="24710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64699000" />
+    <option name="totallyTimeSpent" value="64858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -359,18 +347,8 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index5_add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,10 +360,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index5_main.js">
+    <entry file="file://$PROJECT_DIR$/js/index5_add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="210" column="169" lean-forward="true" selection-start-line="210" selection-start-column="169" selection-end-line="210" selection-end-column="169" />
+        <state relative-caret-position="357">
+          <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="213" column="123" lean-forward="false" selection-start-line="213" selection-start-column="123" selection-end-line="213" selection-end-column="123" />
           <folding />
         </state>
       </provider>
