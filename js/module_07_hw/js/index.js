@@ -39,7 +39,7 @@ function createPostCard(post) {
 
     imgCard.setAttribute('src', post.img);
     imgCard.setAttribute('alt', 'post image');
-    aCard.setAttribute('href', post.Link);
+    aCard.setAttribute('href', post.link);
 
     h2Card.textContent = post.title;
     pCard.textContent = post.text;
