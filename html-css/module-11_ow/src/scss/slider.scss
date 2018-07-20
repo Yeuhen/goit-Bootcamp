@@ -1,0 +1,36 @@
+.wrapper {
+  background-image: url('../img/slider/1.jpg');
+  @include bg-img;
+}
+
+.slider {
+  padding: rem(32) 0;
+
+  &__title, &__sub-title {
+    color: $white;
+    font-size: $mobTitle;
+    text-align: center;
+  }
+
+  &__sub-title {
+    font-size: $mobSubTitle;
+    font-weight: 300;
+    margin-top: rem(48);
+    margin-bottom: rem(24);
+  }
+
+  &__btn {
+    margin: auto;
+  }
+}
+
+.btn {
+  background-color: $green;
+  display: block;
+  outline: none;
+  border: none;
+  padding: rem(10) rem(20);
+  text-transform: uppercase;
+  color: $white;
+  font-weight: 700;
+}

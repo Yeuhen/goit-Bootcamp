@@ -1,0 +1,138 @@
+/*
+   Import partials below
+*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  min-width: 20rem;
+  max-width: 60rem;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1.25rem 0;
+}
+
+.nav {
+  display: none;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #66AF33;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.wrapper {
+  background-image: url("../img/slider/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.slider {
+  padding: 2rem 0;
+}
+
+.slider__title,
+.slider__sub-title {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.slider__sub-title {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.slider__btn {
+  margin: auto;
+}
+
+.btn {
+  background-color: #66AF33;
+  display: block;
+  outline: none;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.wrapper-color {
+  background-color: #fff;
+}
+
+.wrapper-color--black {
+  background-color: #333;
+}
+
+.welcome {
+  padding: 4.0625rem 0;
+}
+
+.welcome__title {
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.welcome__sub-title {
+  color: #66AF33;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.welcome__design {
+  margin-bottom: 2rem;
+}
+
+.welcome__imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.welcome__img {
+  width: 45%;
+  height: 6.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.welcome__img:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 1.125rem;
+}

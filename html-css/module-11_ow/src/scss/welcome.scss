@@ -1,0 +1,50 @@
+.wrapper-color {
+  background-color: $white;
+
+  &--black {
+    background-color: $black;
+  }
+}
+
+.welcome {
+  padding: rem(65) 0;
+
+  &__title {
+    color: $grey;
+    font-size: $mobTitle;
+    margin-bottom: rem(10);
+  }
+
+  &__sub-title {
+    color: $green;
+    font-size: $mobSubTitle;
+    margin-bottom: rem(32);
+  }
+
+  &__design {
+    margin-bottom: rem(32);
+  }
+
+  &__imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  &__img {
+    width: 45%;
+    height: rem(100);
+    margin-bottom: rem(10);
+    &:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.text {
+  font-size: $mobText;
+  color: $grey;
+  line-height: $mobSubTitle;
+}
+

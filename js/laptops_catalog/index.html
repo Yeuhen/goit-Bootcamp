@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>phones</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="aside">
+        <div class="filter">
+            <input type="checkbox" id="13">
+            <label for="13" class="chkbox">13"</label>
+            <input type="checkbox" id="15">
+            <label for="15" class="chkbox">15"</label>
+            <input type="checkbox" id="17">
+            <label for="17" class="chkbox">17"</label>
+        </div>
+        <button class="module-card-button btn">filter</button>
+    </div>
+    <div class="gallery"></div>
+</div>
+
+<template id="laptops">
+    {{#each laptops}}
+    <div class="module-card-bottom hide div-{{size}}">
+        <img src="{{img}}" alt="{{name}}" class="module-card-img"/>
+        <div>
+            <h2>{{name}}</h2>
+            <p class="price">{{price}}$</p>
+            <p>{{descr}}</p>
+            <p>size: {{size}}"</p>
+            <p>color: {{color}}</p>
+            <p>release date: {{releaseDate}}</p>
+        </div>
+    </div>
+    {{/each}}
+</template>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

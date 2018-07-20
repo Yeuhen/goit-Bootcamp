@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--<div class="content-placeholder"></div>-->
+<!------------------------------------------------------template_7----------------------->
+<div class="container">
+    <div class="aside">
+        <div class="filter">
+            <input type="checkbox" id="13">
+            <label for="13" class="chkbox">13"</label>
+            <input type="checkbox" id="15">
+            <label for="15" class="chkbox">15"</label>
+            <input type="checkbox" id="17">
+            <label for="17" class="chkbox">17"</label>
+        </div>
+        <button class="module-card-button btn">filter</button>
+    </div>
+    <div class="gallery"></div>
+</div>
+
+<template id="laptops">
+    {{#each laptops}}
+    <div class="module-card-bottom hide div-{{size}}">
+        <img src="{{img}}" alt="{{name}}" class="module-card-img"/>
+        <div>
+            <h2>{{name}}</h2>
+            <p class="price">{{price}}$</p>
+            <p>{{descr}}</p>
+            <p>size: {{size}}"</p>
+            <p>color: {{color}}</p>
+            <p>release date: {{releaseDate}}</p>
+        </div>
+    </div>
+    {{/each}}
+</template>
+
+<!------------------------------------------------------template_6----------------------->
+<!--<div class="container"></div>-->
+
+<!--<template id="mobile-phone">-->
+<!--{{#each phones}}-->
+<!--<div class="module-card-bottom">-->
+<!--<img src="{{image}}" alt="{{name}}" class="module-card-img"/>-->
+<!--<div>-->
+<!--<h2>{{name}}</h2>-->
+<!--<p class="price">{{price}}$</p>-->
+<!--<p>{{description}}</p>-->
+<!--<ul class="hide" id="ul-{{id}}">-->
+<!--<li>cpu: {{cpu}}</li>-->
+<!--<li>camera: {{camera}}</li>-->
+<!--<li>size: {{size}}</li>-->
+<!--<li>weight: {{weight}}</li>-->
+<!--<li>display: {{display}}</li>-->
+<!--<li>battery: {{battery}}</li>-->
+<!--<li>memory: {{memory}}</li>-->
+<!--</ul>-->
+<!--<button class="module-card-button" id="{{id}}">Show more</button>-->
+<!--</div>-->
+<!--</div>-->
+<!--{{/each}}-->
+<!--</template>-->
+
+
+<!------------------------------------------------------template_5----------------------->
+
+<!--<div class="gallery">-->
+<!--<div class="gallery-content"></div>-->
+<!--</div>-->
+
+
+<!--<template id = "gallery-imgs">-->
+<!--<h2 class="gallery-title">{{title}}</h2>-->
+<!--{{#each items}}-->
+<!--<div class="gallery-item">-->
+<!--<img class="gallery-img" src="{{this.img}}" alt="pictures">-->
+<!--<p class="gallery-text">{{this.text}}</p>-->
+<!--</div>-->
+<!--{{/each}}-->
+<!--</template>-->
+
+<!--<h2 class="gallery-title"></h2>-->
+<!--<div class="gallery-item">-->
+<!--<img class="gallery-img" src="" alt="">-->
+<!--<p class="gallery-text"></p>-->
+<!--</div>-->
+
+
+<!------------------------------------------------------template_4----------------------->
+<!--<template id="built-in-helpers-template">-->
+<!--{{#each animals}}-->
+<!--<p>-->
+<!--The {{this.name}} says-->
+<!--{{#if this.noise}}-->
+<!--"{{this.noise}}".-->
+<!--{{else}}-->
+<!--nothing since its a {{this.name}}.-->
+<!--{{/if}}-->
+<!--</p>-->
+<!--{{/each}}-->
+<!--</template>-->
+
+<!------------------------------------------------------template_3----------------------->
+<!--<div id="menu-container"></div>-->
+<!--<template id="menu">-->
+<!--<div class="menu">-->
+<!--<h3 class="menu-title">{{title}}</h3>-->
+<!--<ul class="menu-list">-->
+<!--{{#each items}}-->
+<!--<li class="menu-item">{{this}}</li>-->
+<!--{{/each}}-->
+<!--</ul>-->
+<!--</div>-->
+<!--</template>-->
+
+
+<!------------------------------------------------------template_2----------------------->
+
+<!--<template id="example-template">-->
+
+<!--&lt;!&ndash; people is looked up on the global context, the one we pass to the compiled template &ndash;&gt;-->
+
+<!--{{#each people}}-->
+
+<!--&lt;!&ndash; Here the context is each individual person. So we can access its properties directly: &ndash;&gt;-->
+<!--<p>{{firstName}} {{lastName}}</p>-->
+
+<!--{{/each}}-->
+
+<!--</template>-->
+
+
+<!---------------------------------template_1---------------------------->
+<!--<template id="address-template">-->
+<!--<p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>-->
+<!--</template>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
