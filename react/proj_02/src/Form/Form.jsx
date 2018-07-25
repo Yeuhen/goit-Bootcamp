@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Form.css';
+import styles from './Form.css';
 
 
 // const input = {
@@ -62,16 +62,16 @@ class Form extends Component {
                placeholder='Your login'
                value={this.state.login}
                onChange={this.changeInput}
-               className= 'input'
+               className= {styles.input}
         />
         <input type="password"
                name='password'
                placeholder='Password'
                value={this.state.password}
                onChange={this.changeInput}
-               className='input'
+               className={styles.input}
         />
-        <button type='submit' className= 'btn'>Send</button>
+        <button type='submit' className= {styles.btn}>Send</button>
       </form>
     )
   }
