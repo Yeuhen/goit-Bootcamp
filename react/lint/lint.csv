@@ -1,7 +1,11 @@
+1. копіюємо файли з цієї в корінь проекту
+2. Запускаємо команду:
 npm i --save-dev eslint prettier eslint-config-airbnb@^15.0.1 eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y@^5.1.1 stylelint
 
+3. npm run eject
 
-webpack.config.dev.js
+4. редагуємо файли:
+--   webpack.config.dev.js
  {
                 loader: require.resolve('css-loader'),
                 options: {
@@ -11,4 +15,16 @@ webpack.config.dev.js
                 },
               },
 
-webpack.config.prod.js
+--     webpack.config.prod.js
+
+options: {
+importLoaders: 1,
+modules: true,
+localIdentName: '[hash:base64:5]',
+minimize: true,
+sourceMap: shouldUseSourceMap,13:32 25.07.2018
+},
+
+5. npm start
+
+6. npm i  -- save-dev react-flip-move //для красоты
