@@ -1,0 +1,20 @@
+import axios from 'axios';
+
+export function addImg(data) {
+    return {
+        type: 'DOWNLOADED',
+        data,
+    }
+
+}
+
+const END_POINT = 'https://pixabay.com/api/?key=';
+const API_KEY = '5018958-ed49ccd90878e6614abdf24a6';
+
+function getGallery() {
+    return axios.get(`${END_POINT}${API_KEY}&category=girl&order=popular&per_page=10`)
+}
+
+export const galleryAsync = () => dispatch => {
+    getGallery().then(data => dispatch(addImg(data.data.hits)))
+}

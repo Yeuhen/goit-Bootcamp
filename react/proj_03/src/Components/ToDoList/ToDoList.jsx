@@ -10,7 +10,11 @@ const ToDoList = ({tasks, deleteItem, update}) => {
     <ul className={styles.theList}>
       <FlipMove>
         {tasks.map(el =>
-          <ToDo text={el.text} id={el.id} key = {el.id} func={deleteItem} update={update}/>
+          <ToDo text={el.text}
+                id={el.id}
+                key = {el.id}
+                func={deleteItem}
+                update={update}/>
           // <li key={el.id} className={styles.theList__item} onClick={()=>deleteItem(el.id)}>{el.text}</li>
         )}
       </FlipMove>

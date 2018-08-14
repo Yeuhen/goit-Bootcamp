@@ -1,0 +1,3 @@
+1. input -> inputAction->inputReduce->state
+2. gallery->action(fetch)->actionReduce->stateArr
+3. 

@@ -33,6 +33,7 @@ class ToDo extends Component {
   };
 
   taskUpdate =() => {
+    console.log(this.props);
     this.props.update(this.props.id, this.state.taskText);
     this.edit();
   };
